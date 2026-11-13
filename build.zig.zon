@@ -10,8 +10,8 @@
             .hash = "N-V-__8AAJbmLwHHxHDWkz0i6WIR6FpNe6tXSLzaPuWtvBBg",
         },
         .openssl = .{
-            .url = "git+https://github.com/allyourcodebase/openssl.git#0ac677650d43eadf669067d050992118b13338d2",
-            .hash = "openssl-3.3.2-TC9C3Ze3ZABaKR5hc8KRnRPhTClKrKQKqTnXTUYkvmSR",
+            .url = "git+https://github.com/pierrelgol/openssl?ref=zig#00aed68ff4a483b9e5c56d0c3e2bf3fae11ea982",
+            .hash = "openssl-3.3.2-TC9C3UK5ZAD1PUVzJGPdRfHtcQvB9FB2ProY6VF-wyD0",
             .lazy = true,
         },
         .mbedtls = .{
@@ -20,9 +20,8 @@
             .lazy = true,
         },
         .libssh2 = .{
-            // TODO: merge https://github.com/allyourcodebase/libssh2/pull/11
-            .url = "git+https://github.com/dasimmet/libssh2?ref=feature/mbedtls-dependency#5e39e4fdde45d031ca417ab7f6a20004264f3acf",
-            .hash = "libssh2-1.11.1-JgdeR2AYAAAI5JWiLCEquyMH25Q0m3IXODXotOojEsUS",
+            .url = "git+https://github.com/pierrelgol/libssh2#77f3584aad1533b94443a44e175b0946956cacf9",
+            .hash = "libssh2-1.11.1-JgdeR0AZAAAsbtS7bCc0T2aU2Czn9etMP_r3vsuQtykX",
             .lazy = true,
         },
         .zlib = .{
