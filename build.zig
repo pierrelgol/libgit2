@@ -246,9 +246,7 @@ pub fn build(b: *std.Build) !void {
             if (b.lazyDependency("libssh2", .{
                 .target = target,
                 .optimize = optimize,
-                // A string, not the enum: Zig 0.17.1 corrupts runtime enum dependency
-                // arguments when serializing the build graph on x86_64 Linux.
-                .@"crypto-backend" = @tagName(crypto_backend),
+                .@"crypto-backend" = crypto_backend,
                 .@"link-system-crypto-backend" = false,
                 .zlib = true,
             })) |libssh2| {
