@@ -10,8 +10,8 @@
             .hash = "N-V-__8AAJbmLwHHxHDWkz0i6WIR6FpNe6tXSLzaPuWtvBBg",
         },
         .openssl = .{
-            .url = "git+https://github.com/pierrelgol/openssl?ref=zig#00aed68ff4a483b9e5c56d0c3e2bf3fae11ea982",
-            .hash = "openssl-3.3.2-TC9C3UK5ZAD1PUVzJGPdRfHtcQvB9FB2ProY6VF-wyD0",
+            .url = "git+https://github.com/pierrelgol/openssl?ref=zig#57a91e2cafb3468238f437d26b87372afa2bf338",
+            .hash = "openssl-3.3.2-TC9C3Y-5ZAAojFNmL5awsNZfsHpV72I0VW5BXz3LKh2e",
             .lazy = true,
         },
         .mbedtls = .{
@@ -20,8 +20,8 @@
             .lazy = true,
         },
         .libssh2 = .{
-            .url = "git+https://github.com/pierrelgol/libssh2#2832be06f987095263c8a20af9dd842f8b5ba4ec",
-            .hash = "libssh2-1.11.1-JgdeRyUbAACobApDqQIdAv5Nxi5NYOMvT2QK4O5vX3Ux",
+            .url = "git+https://github.com/pierrelgol/libssh2#ac12c66b9633a539d9e71e2fc9c1d26e5237fb73",
+            .hash = "libssh2-1.11.1-JgdeRyUbAADVBczAqdUASVIb38h5wcccZefluQwXktbP",
             .lazy = true,
         },
         .zlib = .{
