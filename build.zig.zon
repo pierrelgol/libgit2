@@ -20,8 +20,8 @@
             .lazy = true,
         },
         .libssh2 = .{
-            .url = "git+https://github.com/pierrelgol/libssh2#77f3584aad1533b94443a44e175b0946956cacf9",
-            .hash = "libssh2-1.11.1-JgdeR0AZAAAsbtS7bCc0T2aU2Czn9etMP_r3vsuQtykX",
+            .url = "git+https://github.com/pierrelgol/libssh2#e01b538be2d05d99b82554c3fdb9336e6c3bee36",
+            .hash = "libssh2-1.11.1-JgdeR-8bAABbZafj4hqLrucdsqGzKnJm1j6Izya-W_Id",
             .lazy = true,
         },
         .zlib = .{
